@@ -17,6 +17,7 @@ public class Number1 {
         fruits[7] = "Plum";
         fruits[8] = "Peach ";
         fruits[9] = "Apricot";
+        
         System.out.println(Arrays.toString(fruits));
     }
 }
