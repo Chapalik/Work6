@@ -12,10 +12,10 @@ public class Number4 {
                 score[i][j] = 10*(i + 1) + j;
             }
         }
-        int[] result = new int[4];
+        int[] result = new int[score.length];
         for (int i = 0; i < score.length; i++) {
             for (int j = 0; j < score[i].length; j++) {
-                result[j] = result[j] + score[i][j];
+                result[i] = result[i] + score[i][j];
             }
         }
         System.out.println(Arrays.toString(result));
